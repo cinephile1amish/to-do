@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #7e9d60;
+    gap: 20px;
+    justify-content: center;
+}
+
+.section {
+    flex: 1;
+    padding: 10px;
+    color: #c3f47e;
+    background-color: #464f2e;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    min-width: 200px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 0 auto 10px auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c3f47e;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00b386;
+}
+
+.card {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #d2f4a7;
+    color: #000000;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: grab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    padding: 3px 6px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fc0000;
+    color: white;
+    cursor: pointer;
+    margin-right: 0px;
+
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+    
+}

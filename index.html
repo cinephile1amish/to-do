@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- To Do Section -->
+    <section class="section" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h2>To Do</h2>
+        <button onclick="createCard('todo')">Add Task</button>
+    </section>
+
+    <!-- On-Going Section -->
+    <section class="section" id="ongoing" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h2>On-Going</h2>
+        <button onclick="createCard('ongoing')">Add Task</button>
+    </section>
+
+    <!-- Done Section -->
+    <section class="section" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h2>Done</h2>
+        <button onclick="createCard('done')">Add Task</button>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
